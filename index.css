@@ -1,0 +1,210 @@
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 133px;
+    margin-bottom: 20%;
+}
+
+.facebook{
+    color:blue;
+    margin-top: 3rem;
+    height: 300px;
+    width: 370px;
+}
+
+img{
+    width:93%;
+    mix-blend-mode:multiply ;
+    margin-left:-30px;
+    height:37%;
+}
+
+.connect{
+    color:black;
+    font-size:1.5rem;
+    margin-top: 0px;
+}
+
+
+
+<!--Form Section-->
+form{
+    margin-top: px;
+
+}
+
+input{
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    width:90%;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-size:16px;
+
+}
+.inputs{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.email{
+    display: block;
+    margin:auto;
+}
+.password{
+    display: block;
+    margin:auto;
+}
+.passwordC{
+margin: 15px 1px;
+
+}
+
+.container{
+    height:auto;
+    width:400px;
+}
+
+.login{
+    background-color: white;
+    color:white;
+    box-shadow:2px 2px 9px #cdd1d8;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-right:10px;
+}
+#log_inButton{
+    
+    background-color: #1877f2;
+    padding: 12px 10px;
+    border:none;
+    border-radius:5px;
+    color:white;
+    width:100%;
+    font-size:20px;
+    font-weight:700;
+    display:block; 
+}
+#log_inButton:hover{
+    background-color: #1a6cd8; 
+}
+.logInB{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.logInBC{
+    margin: auto;
+    background-color: #1877f2;
+    width:90%;
+    border-radius:5px;
+}
+
+.newaccount{
+    background:rgb(8, 175, 8);
+    color:white;
+    font-weight:300;
+    border-radius: 5px;
+    font-size:1.2em;
+    border:none;
+    padding:15px 20px;
+    margin:auto;
+    display:block; 
+    }
+.new_account{
+    margin-top:30px;
+}
+    
+#create_celeb_page{
+    color:black;
+    text-decoration: none;
+    font-style:bold;
+    
+    }
+    
+.celebPage{
+        color:black;
+        margin-top:15px;
+        font-size:0.9rem;
+        text-align: center;
+    }
+    
+.forgotP{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+.forgot{
+    color:#1877f2;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom:10px;
+    }
+hr{
+        width: 95%;
+        opacity: 0.5;
+    
+    }
+        
+footer{
+    background-color: white;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    
+    }
+.fotcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin:auto;
+    max-width:980px;
+}
+.footerLinks{
+    margin-left:0px;
+}
+.footerLinks > a{
+    color:#85888b;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin:4px 0px;
+}
+.footerLinks > a:hover{
+    color:#737679;
+    text-decoration: underline;
+}
+.languages{
+    margin-top:15px;
+}
+.languages > a{
+    color:#828588;
+    margin:4px 5px;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+.languages > a:hover{
+    text-decoration: underline;
+}
+.fotcontainer hr{
+    
+    opacity: 0.4;
+    margin-left: 0px;
+}
+.more{
+    display: inline-block;
+}
+.metatrade{ 
+    color:#85888b;
+    font-size:0.8rem;
+}
+.metacontainer{
+    margin-top: 30px;
+}
